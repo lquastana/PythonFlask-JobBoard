@@ -1,7 +1,8 @@
 import pytest
 import inspect
 
-from jobs import app
+from  jobs import app
+from .utils import *
 
 @pytest.mark.test_app_import_sqlite_module3
 def test_app_import_sqlite_module3():
